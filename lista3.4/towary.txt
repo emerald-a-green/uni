@@ -1,0 +1,11 @@
+Owoce|LokalnyA|Golden|Jablka z sadow|10|1
+Owoce|LokalnyB|Zlote|Jablka z sadow|20|2
+Owoce|LokalnyC|Papierowki|Jablka z sadow|15|3
+Owoce|LokalnyA|Zlote|Jablka z sadow|30|4
+Owoce|LokalnyA|Golden|Jablka z sadow|11|5
+Owoce|LokalnyC|Zlote|Jablka z sadow|23|6
+Warzywa|LokalnyA|Marchew|Marchewki najlepsze|20|7
+Warzywa|LokalnyA|Marchew|Marchewki najlepsze|20|8
+Warzywa|LokalnyB|Seler|Z ogrodka|30|9
+Warzywa|LokalnyB|Marchew|Marchewki najlepsze|22|10
+Warzywa|LokalnyC|Marchew|Marchewki najlepsze|25|11
