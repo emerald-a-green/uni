@@ -1,0 +1,159 @@
+﻿* {
+	font-family: Noto Sans;
+	color:rgb(0, 77, 27);
+	font-size: 14px;
+}
+
+body {
+	background-color: rgb(255, 255, 153);
+	margin: 0;
+}
+
+a:hover {
+	color: rgb(0, 204, 68);
+}
+
+.separator {
+	background-color: rgb(0, 204, 68);
+	height: 1px;
+	margin: 20px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu_link {
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	flex: 1;
+	width: 100%;
+	transition: 0.1s;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	font-size: 18px;
+}
+
+.menu_link:hover {
+	flex: 1.1;
+	width: 100%;
+	transition: 0.1s;
+	background-color: rgb(0, 204, 68);
+	color: rgba(255, 255, 255, 1);
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+font-size: 24px;
+}
+
+.nazwa {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.producent {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.opis {
+	text-align: justify;
+	padding: 20px 0;
+}
+
+.kategoria {
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+}
+
+.cena {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-weight: bold;
+}
+
+.zdjecie {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 1);
+}
+
+.item_kontent {
+	padding: 0 20px;
+	width: 100%;
+	position: relative;
+}
+.item {
+	margin: 10px;
+	padding: 10px;
+	transition: 0.2s;
+	display: flex;
+}
+
+.item:hover {
+	background-color: rgb(153, 255, 153);
+	transition: 0.2s;
+}
+
+.content {
+	padding: 20px;
+}
+
+ol {
+	right: 0;
+	height: 50px;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+	display: flex;
+	margin: -20px 0 80px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+ol li ul a {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+li {
+	list-style-type: none;
+	padding: 0 10px;
+	margin: 0;
+}
+
+ol > li > ul {
+  padding: 0;
+}
+
+ol > li {
+  flex: 1;
+}
+
+ol > li > ul {
+	opacity: 0;
+	transition: 0.4s;
+}
+
+ol > li:hover > ul {
+	opacity: 1;
+	transition: 0.4s;
+}
+
+
